@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<wolf-plugins>
+    <wolf-plugin>
+        <id>codemirror</id>
+        <version>0.1b</version>
+        <status>beta</status>
+    </wolf-plugin>
+</wolf-plugins>
