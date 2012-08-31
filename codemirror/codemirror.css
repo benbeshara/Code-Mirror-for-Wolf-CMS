@@ -1,0 +1,5 @@
+@import 'CodeMirror-2.33/lib/codemirror.css';
+
+.CodeMirror-scroll {
+	border: 1px solid #888;
+}
