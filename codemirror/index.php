@@ -10,7 +10,7 @@ if (!defined('IN_CMS')) {
  * @package Plugins
  * @subpackage codemirror
  *
- * @author Jasper Palfree <jasper@wellcaffeinated.net>
+ * @author Jasper Palfree <jasper@wellcaffeinated.net> http://wellcaffeinated.net
  * @copyright Jasper Palfree, 2012
  * @license http://www.gnu.org/licenses/gpl.html GPLv3 license
  */
@@ -20,8 +20,8 @@ Plugin::setInfos(array(
         'title'       => __('Code Mirror'),
         'description' => __('Provides Code Mirror editor.'),
         'version'     => '0.1b',
-        'website'     => 'http://wellcaffeinated.net/',
-        'update_url'  => 'http://wellcaffeinated.net/'
+        'website'     => 'https://github.com/wellcaffeinated/Code-Mirror-for-Wolf-CMS',
+        'update_url'  => 'https://raw.github.com/wellcaffeinated/Code-Mirror-for-Wolf-CMS/master/version.xml'
 ));
 
 Observer::observe('view_page_after_edit_tabs', 'behavior_code_mirror_editor');

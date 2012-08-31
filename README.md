@@ -13,3 +13,10 @@ Easy peasy.
 
 - Doesn't have any configuration options yet.
 - Highlighting is hard-coded to GitHub flavored markdown.
+
+# Credit
+
+Plugin developed by Jasper Palfree [wellcaffeinated.net](http://wellcaffeinated.net).
+
+Copyright Jasper Palfree 2012
+Licence: http://www.gnu.org/licenses/gpl.html GPLv3 license
