@@ -28,5 +28,7 @@ Plugin::addJavascript('codemirror', 'CodeMirror-2.33/lib/codemirror.js');
 Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/markdown/markdown.js');
 Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/javascript/javascript.js');
 Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/xml/xml.js');
-Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/htmlmixed/htmlmixed.js');
+Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/css/css.js');
+Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/clike/clike.js');
+Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/php/php.js');
 Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/gfm/gfm.js');
