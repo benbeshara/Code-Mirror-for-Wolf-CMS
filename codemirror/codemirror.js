@@ -1,15 +1,21 @@
-$(function(){
-	$('#part_0_content, #snippet_content, #layout_content, #file_content').each(function(){
+$(document).ready(function() {
+	var myCodeMirror;
+    $('.filter-selector').live('wolfSwitchFilterOut', function(event, filtername, elem) {
+        if (filtername == 'codemirror') {
+			myCodeMirror.toTextArea();
+        }
+    });
 
-		$this = $(this);
-
-	    var myCodeMirror = CodeMirror.fromTextArea(
-	        this,
-	        {
-	            mode: $this.hasClass('markdown')? 'gfm' : 'php',
-	            matchBrackets: true,
-	            lineWrapping: true
-	        }
-	    );
-	});
+    $('.filter-selector').live('wolfSwitchFilterIn', function(event, filtername, elem) {
+        if (filtername == 'codemirror') {
+			myCodeMirror = CodeMirror.fromTextArea(
+				elem[0],
+				{
+					mode: elem.hasClass('markdown')? 'gfm' : 'php',
+					matchBrackets: true,
+					lineWrapping: true
+				}
+			);
+        }
+    });
 });

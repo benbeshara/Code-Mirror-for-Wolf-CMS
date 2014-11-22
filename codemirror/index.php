@@ -24,6 +24,8 @@ Plugin::setInfos(array(
         'update_url'  => 'https://raw.github.com/wellcaffeinated/Code-Mirror-for-Wolf-CMS/master/version.xml'
 ));
 
+Filter::add('codemirror', 'codemirror/filter_codemirror.php');
+
 Plugin::addJavascript('codemirror', 'CodeMirror-2.33/lib/codemirror.js');
 Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/markdown/markdown.js');
 Plugin::addJavascript('codemirror', 'CodeMirror-2.33/mode/javascript/javascript.js');
