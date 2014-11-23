@@ -1,11 +1,12 @@
-@import 'CodeMirror-2.33/lib/codemirror.css';
+@import 'CodeMirror/lib/codemirror.css';
 
 .CodeMirror {
 	background: #fff;
+	margin-top: 17px
 }
 
 .CodeMirror-scroll {
-	border: 1px solid #888;
+	border: 1px solid #DDD;
 }
 
 .CodeMirror,

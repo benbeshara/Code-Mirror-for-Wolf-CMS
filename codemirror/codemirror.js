@@ -13,7 +13,10 @@ $(document).ready(function() {
 				{
 					mode: elem.hasClass('markdown')? 'gfm' : 'php',
 					matchBrackets: true,
-					lineWrapping: true
+					lineWrapping: true,
+					lineNumbers: true,
+					indentUnit: 4,
+					theme: 'default'
 				}
 			);
         }
